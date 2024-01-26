@@ -1,0 +1,19 @@
+ string.concat(values1);
+  string.concat(",");
+
+  string.concat(values2);
+  string.concat(",");
+
+  string.concat(values3);
+  string.concat(",");
+
+
+
+   response = postValues(string);
+   Serial.println(string);
+
+
+  // 周期処理ここまで
+
+ 
+  unsigned long curr = millis(); // 現
